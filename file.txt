@@ -20,6 +20,7 @@ public class OccuranceofCharacterinStringUsingHashMap {
 		for(Entry<Character, Integer> en:map.entrySet()) {
 			if(en.getValue()>=2) {
 				System.out.println(en.getKey()+ " = "+en.getValue());
+                                System.out.printl("FIle was changed by sree harsha")
 			}
 		}
 
